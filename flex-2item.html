@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            border: solid 2px black;
+            height: 600px;
+            gap: 20px 30px;
+            flex-wrap: wrap;
+            /* justify-content: flex-end; */
+            /* align-items: flex-end; */
+        }
+        .flex-item{
+            border: solid 2px red;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            
+        }
+        .flex-item-1{
+            flex-grow: 0;
+            flex-shrink: 5;
+            order: 2;
+        }
+        .flex-item-2{
+            flex-grow: 5;
+            flex-shrink: 1;
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+   
+    <div class="flex-item-1 flex-item">One</div>
+    <div class="flex-item-2 flex-item">two</div>
+    <div class="flex-item-3 flex-item">Three</div>
+    <div class="flex-item-4 flex-item">Four</div>
+
+    <div class="flex-item-5 flex-item">Five</div>
+    <div class="flex-item-6 flex-item">Six</div>
+    <div class="flex-item-7 flex-item">Seven</div>
+    <div class="flex-item-8 flex-item">Eight</div>
+</div>
+</body>
+</html>
