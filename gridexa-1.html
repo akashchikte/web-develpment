@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .container{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            
+        }
+        .main-container{
+            transform-style: preserve-3d;
+            perspective: 1100px;
+        }
+        .container:hover{
+            /* transform: translateZ(200px); */
+            perspective: 200px;
+            transform: rotateY(180deg);
+            /* transform: scaleX(3); */
+            /* transform: skewY(40deg); */
+            transition-duration: 5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-items One">
+            <img src="/resources1.jpg" alt="">
+        </div>
+        <div class="grid-items Two"></div>
+        <div class="grid-items Three">
+            <div class="card">
+                <img src="/resources1.jpg" alt="">
+            </div>
+        </div>
+        <div class="grid-items Four"></div>
+        <div class="grid-items Five"></div>
+
+    </div>
+</body>
+</html>
