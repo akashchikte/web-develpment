@@ -1,0 +1,241 @@
+body{
+    font-family: 'ubuntu', sans-serif;
+    background: whitesmoke;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    @media screen and(min-width: 400px) and (max-width: 670px)
+      
+
+}
+
+.container1{
+    float: right;
+    padding-top: 20px;
+
+}
+.works{
+    font-size: medium;
+    font-weight: 900;
+    padding: 25px;
+}
+    
+    .works:hover{
+        color: #cf5151;
+        text-decoration: none;
+}
+.main{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 190px;
+    background: whitesmoke;
+}
+#img{
+    padding-top: 0px;
+    float: right;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-right: 250px;
+}
+.text{
+    float: left;
+    font-size: 20px;
+
+}
+#but1{
+    padding: 8px 18px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+#but1:hover{
+    background-color: #5188cf;
+    cursor: pointer;
+}
+.main1{
+    background: rgb(135, 223, 235); 
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    /* margin-left: 90px; */
+    top: 550px;
+}
+.Abc{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    opacity: 0.9;
+    background: whitesmoke;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+.main1 h3{
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    left: 148px;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.main1 h4{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 30px;
+    left: 170px;
+    top: 75px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+.para1{
+    left: 170px;
+    position: absolute;
+    top: 185px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 200;
+}
+.para2{
+    position: absolute;
+    top: 225px;
+    left: 180px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.box2{
+    float: right;
+    height: 300px;
+    width: 500px;
+    background: whitesmoke;
+    opacity: 0.9;
+    margin: 75px 150px ;
+    
+}
+.box2 h2{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 30px;
+    right: 280px;
+    top: 75px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 300;
+}
+.main1 a{
+    position: absolute;
+    float: right;
+    width: 100px;
+    height: 30px;
+    right: 130px;
+    font-size: 14px;
+    /* line-height: 10px; */
+    font-weight: 200;
+    margin-top: 40px;
+}
+.para3{
+    right: 310px;
+    position: absolute;
+    top: 185px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 200;
+}
+.para4{
+    position: absolute;
+    top: 225px;
+    right: 270px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.box3{
+    position: absolute;
+    background: whitesmoke; 
+    width: 100%;
+    height: 650px;
+    top: 980px;
+}
+
+.h3{
+   margin-left: 148px;
+   font-size: 20px;
+   line-height: 60px;
+   font-weight: 200;
+   margin-top: 20px;
+}
+
+    .img1{
+        
+        margin-left: 146px;
+        height: 220px;
+        width: 335px;
+        border-radius: 10px;
+    
+    }
+    .h6{
+        position: absolute;
+        margin-top: 1080px;
+        text-align: center;
+        font-size: 25px;
+        color: #0c1e36;
+        margin-left: 535px;
+       
+    }
+    #btn{
+       position: absolute;
+        margin-top: 50px;
+        margin-left: 60px;
+        background: darkblue;
+        color: white;
+        height: 25px;
+        width: 60px;
+        border-radius: 25%;
+    }
+     p{
+        position: absolute;
+        margin-left: 625px;
+        margin-top: 1130px;
+        font-size: 20px;
+        font-family: sans-serif;
+        opacity: 0.7;
+    }
+    .p7{
+        position: absolute;
+        margin-top: 1180px;
+        margin-left: 500px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 15px;
+        color: black    ;
+    }
+
+    .box4{
+
+        /* position: absolute; */
+        background: whitesmoke; 
+        width: 100%;
+        /* height: 650px; */
+        top: 1280px;
+    }
+    .img2{
+        margin-left: 146px;
+        height: 220px;
+        width: 335px;
+        border-radius: 10px;
+    }

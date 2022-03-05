@@ -1,0 +1,13 @@
+
+table{ color: none;
+
+    border: 2px solid black;
+    padding: 15px, 10px, 5px, 15px;
+    border-spacing: 5px;
+}
+
+table,th,td{
+    text-decoration: none;
+    /* text-indent: ; */
+    text-shadow: 30px;
+}

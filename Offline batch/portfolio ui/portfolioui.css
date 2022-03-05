@@ -1,0 +1,328 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container1{
+    background: #E5E5E5;
+    
+}
+.works{
+    position: absolute;
+    width: 230px;
+    height: 43px;
+    left: 865px;
+    top: 27px;
+
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    
+    color: #000000;
+    
+}
+.works:hover{
+    color: #cf5151;
+    text-decoration: none;
+}
+.blog{
+    position: absolute;
+    width: 106px;
+    height: 43px;
+    left: 1107px;
+    top: 27px;
+ 
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #000000;
+}
+.blog:hover{
+    color: #cf5151;
+    text-decoration: none;
+}
+.contact{
+    position: absolute;
+    width: 71px;
+    height: 43px;
+    left: 1280px;
+    top: 27px;
+
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #000000;
+}
+.contact:hover{
+    color: #cf5151;
+    text-decoration: none;
+}
+.circle1{
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    left: 900px;
+    top: 210px;
+    border-radius: 50%;
+    box-shadow: -8px 8px #EDF7FA;
+       
+}
+.myName{
+    position: absolute;
+    width: 506px;
+    height: 105px;
+    left: 300px;
+    top: 228px;
+    
+    font-size: 44px;
+    line-height: 60px;
+
+}
+.para1{
+    position: absolute;
+width: 497px;
+height: 66px;
+left: 300px;
+top: 373px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+}
+
+.btn1{
+    position: absolute;
+width: 167px;
+height: 38px;
+left: 320px;
+top: 486px;
+
+font-size: 15px;
+border-radius: 5px;
+color: #FFFFFF;
+background: #FF6464;
+}
+.btn1:hover{
+    background-color: #cf5151;
+    cursor: pointer;
+}
+.container2{
+    background: #EDF7FA;
+    position: absolute;
+width: 100%;
+height: 420px;
+top: 720px;
+
+}
+
+.container2 h4{
+    position: absolute;
+width: 129px;
+height: 60px;
+left: 148px;
+font-size: 20px;
+line-height: 60px;
+}
+
+.container2 h3{
+    position: absolute;
+    font-size: 30px;
+    left: 20px;
+}
+
+.container2 h5{
+    position: absolute;
+    color: #00A8CC;
+    height: 20px;
+    right: 220px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.box1{
+    position: absolute;
+width: 418px;
+height: 260px;
+left: 15%;
+top: 100px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+border-radius: 4px;
+}
+
+#p1{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+#p2{
+    position: absolute;
+    left: 16px;
+    top: 150px;
+}
+
+.box2{
+    position: absolute;
+width: 418px;
+height: 260px;
+right: 15%;
+top: 100px;
+
+background: #FFFFFF;
+border-radius: 4px;
+}
+
+.container3 h4{
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    left: 148px;
+    font-size: 18px;
+    line-height: 60px;
+    top: 1150px;
+}
+
+.img1{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 15%;
+    top: 1250px;
+}
+
+#p3{
+    position: absolute;
+    left: 450px;
+    top: 1225px;
+}
+
+#p4{
+
+    position: absolute;
+    left: 450px;
+    top: 1395px;
+    padding-right: 200px;
+}
+
+#btn2{
+    position: absolute;
+    left: 450px;
+    height: 20px;
+    width: 50px;
+    top: 1335px;
+    border-radius: 10px;
+    background-color: #142850;
+    color: white;
+}
+
+.dash{
+    position: absolute;
+    color: grey;
+    top: 1317px;
+    left: 520px;
+    font-size: 18px;
+}
+
+.img2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 15%;
+    top: 1475px;
+}
+
+.img3{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 15%;
+    top: 1704px;
+}
+
+#p5{
+    position: absolute;
+    left: 450px;
+    top: 1455px;
+}
+
+#p6{
+
+    position: absolute;
+    left: 450px;
+    top: 1620px;
+    padding-right: 200px;
+}
+
+.illus{
+    position: absolute;
+    color: grey;
+    top: 1536px;
+    left: 520px;
+    font-size: 18px;
+}
+
+#btn3{
+    position: absolute;
+    left: 450px;
+    height: 20px;
+    width: 50px;
+    top: 1555px;
+    border-radius: 10px;
+    background-color: #142850;
+    color: white;
+}
+
+#btn4{
+    position: absolute;
+    left: 450px;
+    height: 20px;
+    width: 50px;
+    top: 1785px;
+    border-radius: 10px;
+    background-color: #142850;
+    color: white;
+}
+
+#p7{
+    position: absolute;
+    left: 450px;
+    top: 1680px;
+}
+
+#p8{
+
+    position: absolute;
+    left: 450px;
+    top: 1850px;
+    padding-right: 200px;
+}
+
+.typo{
+    position: absolute;
+    color: grey;
+    top: 1767px;
+    left: 520px;
+    font-size: 18px;
+}
+
+.container6{
+    position: absolute;
+    font-size: 30px;
+    top:1950px;
+    border: 2px solid white;
+    word-spacing: 60px;
+    left: 40%;
+}
+
+.container6 p{
+    font-size: 15px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.btnHover:hover{
+    cursor: pointer;
+}

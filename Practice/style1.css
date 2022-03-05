@@ -1,0 +1,10 @@
+body {
+    background-color: white !important;
+
+    }
+    .link1, .link2, .link3, .link4{
+    text-decoration: none;
+    text-indent: 30px;
+    text-align: center;
+    text-shadow: 50px;
+    }
